@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="italia">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="areaIncendiata" maxOccurs="4">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="anno" type="xs:string"/>
+                        <xs:element name="comune" type="xs:string"/>
+                        <xs:element name="provincia" type="xs:string"/>
+                        <xs:element name="stir" type="xs:string"/>
+                        <xs:element name="localita" type="xs:string"/>
+                        <xs:element name="stazione" type="xs:string"/>
+                        <xs:element name="tipo_zona" type="xs:string"/>
+                        <xs:element name="area" type="xs:decimal"/>
+                        <xs:element name="data" type="xs:string"/>
+                        <xs:element name="numero_incendio" type="xs:string"/>
+                        <xs:element name="comune_dato_ra" type="xs:string"/>
+                        <xs:element name="provincia_dato_ra" type="xs:string"/>
+                        <xs:element name="province_al_2001" type="xs:string"/>
+                        <xs:element name="idfeature" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>    
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="regione" type="xs:string" use="required"/>
+    </xs:complexType>    
+</xs:element>
+</xs:schema>

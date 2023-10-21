@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="areaIncendiataStylesheet.xsl"?>
+<italia regione="Sardegna">
+    <areaIncendiata>
+        <anno>"2005"</anno>
+        <comune>"ALGHERO"</comune>
+        <provincia>"SASSARI"</provincia>
+        <stir>"SASSARI"</stir>
+        <localita>"LAZZARETTO"</localita>
+        <stazione>"ALGHERO"</stazione>
+        <tipo_zona>"BOSCO"</tipo_zona>
+        <area>1.88</area>
+        <data>"01/08/2005"</data>
+        <numero_incendio>"53"</numero_incendio>
+        <comune_dato_ra>"Alghero"</comune_dato_ra>
+        <provincia_dato_ra>"Sassari"</provincia_dato_ra>
+        <province_al_2001>"Sassari"</province_al_2001>
+        <idfeature>"721"</idfeature>
+    </areaIncendiata>
+    <areaIncendiata>
+        <anno>"2007"</anno>
+        <comune>"SELARGIUS"</comune>
+        <provincia>"CAGLIARI"</provincia>
+        <stir>"CAGLIARI"</stir>
+        <localita>"C/O CIMITERO"</localita>
+        <stazione>"SINNAI"</stazione>
+        <tipo_zona>"ALTRO"</tipo_zona>
+        <area>0.14</area>
+        <data>"08/08/2007"</data>
+        <numero_incendio>"117"</numero_incendio>
+        <comune_dato_ra>"Selargius"</comune_dato_ra>
+        <provincia_dato_ra>"Cagliari"</provincia_dato_ra>
+        <province_al_2001>"Cagliari"</province_al_2001>
+        <idfeature>"1426"</idfeature>
+    </areaIncendiata>
+    <areaIncendiata>
+        <anno>"2008"</anno>
+        <comune>"SIURGUS DONIGALA"</comune>
+        <provincia>"CAGLIARI"</provincia>
+        <stir>"CAGLIARI"</stir>
+        <localita>"ACQUA SALLIA"</localita>
+        <stazione>"SENORBI'"</stazione>
+        <tipo_zona>"ALTRO"</tipo_zona>
+        <area>0.61</area>
+        <data>"14/07/2008"</data>
+        <numero_incendio>"26"</numero_incendio>
+        <comune_dato_ra>"Siurgus Donigala"</comune_dato_ra>
+        <provincia_dato_ra>"Cagliari"</provincia_dato_ra>
+        <province_al_2001>"Cagliari"</province_al_2001>
+        <idfeature>"1472"</idfeature>
+    </areaIncendiata>
+    <areaIncendiata>
+        <anno>"2008"</anno>
+        <comune>"SUELLI"</comune>
+        <provincia>"CAGLIARI"</provincia>
+        <stir>"CAGLIARI"</stir>
+        <localita>"CANNISONI"</localita>
+        <stazione>"SENORBI'"</stazione>
+        <tipo_zona>"ALTRO"</tipo_zona>
+        <area>0.67</area>
+        <data>"27/07/2008"</data>
+        <numero_incendio>"37"</numero_incendio>
+        <comune_dato_ra>"Suelli"</comune_dato_ra>
+        <provincia_dato_ra>"Cagliari"</provincia_dato_ra>
+        <province_al_2001>"Cagliari"</province_al_2001>
+        <idfeature>"1491"</idfeature>
+    </areaIncendiata>
+</italia>
