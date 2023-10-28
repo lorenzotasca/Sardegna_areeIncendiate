@@ -3,7 +3,9 @@
 <!ELEMENT italia (areaIncendiata+)>
 <!ATTLIST italia regione CDATA #REQUIRED>
 <!ELEMENT areaIncendiata (anno,comune,provincia, stir, localita, stazione, tipo_zona, area, data, numero_incendio, comune_dato_ra, provincia_dato_ra, province_al_2001, idfeature)>
-<!ELEMENT anno (#PCDATA)>
+<!ELEMENT anno (classe)>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe name CDATA #REQUIRED>
 <!ELEMENT comune (#PCDATA)>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT stir (#PCDATA)>

@@ -6,8 +6,18 @@
             <xs:element name="areaIncendiata" maxOccurs="4">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="anno" type="xs:string"/>
-                        <xs:element name="comune" type="xs:string"/>
+                        <xs:element name="anno">
+                            <xs:complexType>
+                                <xs:sequence>
+                                <xs:element name="classe">
+                                    <xs:complexType>
+                                        <xs:attribute name="name" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="comune"/>
                         <xs:element name="provincia" type="xs:string"/>
                         <xs:element name="stir" type="xs:string"/>
                         <xs:element name="localita" type="xs:string"/>

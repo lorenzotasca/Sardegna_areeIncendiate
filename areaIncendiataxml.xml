@@ -2,7 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="areaIncendiataStylesheet.xsl"?>
 <italia regione="Sardegna">
     <areaIncendiata>
-        <anno>"2005"</anno>
+        <anno>
+            <classe name="5IA"></classe>
+        </anno>
         <comune>"ALGHERO"</comune>
         <provincia>"SASSARI"</provincia>
         <stir>"SASSARI"</stir>
@@ -18,7 +20,9 @@
         <idfeature>"721"</idfeature>
     </areaIncendiata>
     <areaIncendiata>
-        <anno>"2007"</anno>
+        <anno>
+            <classe name="4IA"></classe>
+        </anno>
         <comune>"SELARGIUS"</comune>
         <provincia>"CAGLIARI"</provincia>
         <stir>"CAGLIARI"</stir>
@@ -34,7 +38,9 @@
         <idfeature>"1426"</idfeature>
     </areaIncendiata>
     <areaIncendiata>
-        <anno>"2008"</anno>
+        <anno>
+            <classe name="3IA"></classe>
+        </anno>
         <comune>"SIURGUS DONIGALA"</comune>
         <provincia>"CAGLIARI"</provincia>
         <stir>"CAGLIARI"</stir>
@@ -50,7 +56,9 @@
         <idfeature>"1472"</idfeature>
     </areaIncendiata>
     <areaIncendiata>
-        <anno>"2008"</anno>
+       <anno>
+            <classe name="2IA"></classe>
+        </anno>
         <comune>"SUELLI"</comune>
         <provincia>"CAGLIARI"</provincia>
         <stir>"CAGLIARI"</stir>
