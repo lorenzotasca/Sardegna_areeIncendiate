@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE italia[
 <!ELEMENT italia (areaIncendiata+)>
 <!ATTLIST italia regione CDATA #REQUIRED>
@@ -19,4 +19,4 @@
 <!ELEMENT provincia_dato_ra (#PCDATA)>
 <!ELEMENT province_al_2001 (#PCDATA)>
 <!ELEMENT idfeature (#PCDATA)>
-]>
+]>-->
