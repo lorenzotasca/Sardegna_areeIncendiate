@@ -40,7 +40,7 @@
                         <tr>
                             <td><xsl:value-of select="anno"/></td>
                             <xsl:for-each select="anno" order-by="classe">
-                                <td><xsl:value-of select="classe"/></td>
+                                <td><xsl:value-of select="classe/name"/></td>
                             </xsl:for-each>
                             <td><xsl:value-of select="provincia"/></td>
                             <td><xsl:value-of select="comune"/></td>
