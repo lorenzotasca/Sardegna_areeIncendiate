@@ -27,6 +27,7 @@
                 <table>
                     <tr>
                         <th>Anno</th>
+                        <th>Classe</th>
                         <th>Provincia</th>
                         <th>Comune</th>
                         <th>Area</th>
