@@ -38,10 +38,7 @@
                     <xsl:for-each select="italia/areaIncendiata" order-by="provincia">
                 
                         <tr>
-                            <td><xsl:value-of select="anno"/></td>
-                            <xsl:for-each select="anno" order-by="classe">
-                                <td><xsl:value-of select="@name"/></td>
-                            </xsl:for-each>
+                            <td><xsl:value-of select="anno/classe/@name"/></td>                            
                             <td><xsl:value-of select="provincia"/></td>
                             <td><xsl:value-of select="comune"/></td>
                             <td><xsl:value-of select="area"/></td>
