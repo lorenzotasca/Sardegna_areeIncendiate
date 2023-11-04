@@ -32,7 +32,6 @@
                         <th>Comune</th>
                         <th>Area</th>
                         <th>Data</th>
-                        <th>Idfeature</th>
                     </tr>
                     
                     <xsl:for-each select="italia/areaIncendiata" order-by="provincia">
@@ -43,7 +42,6 @@
                             <td><xsl:value-of select="comune"/></td>
                             <td><xsl:value-of select="area"/></td>
                             <td><xsl:value-of select="data"/></td>
-                            <td><xsl:value-of select="idfeature"/></td>
                         </tr>
 
                     </xsl:for-each>
